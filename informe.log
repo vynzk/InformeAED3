@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.4)  4 JUL 2025 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.4)  4 JUL 2025 21:20
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/workspaces/InformeAED3/informe.tex
-(/workspaces/InformeAED3/informe.tex
+**informe.tex
+(./informe.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -18,7 +17,8 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountB=\count188
 \@IEEEtrantmpcountC=\count189
 \@IEEEtrantmptoksA=\toks17
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -33,42 +33,52 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 \IEEEquantizedlength=\dimen147
 \IEEEquantizedlengthdiff=\dimen148
 \IEEEquantizedtextheightdiff=\dimen149
@@ -109,18 +119,18 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@posthook=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen164
@@ -128,11 +138,10 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip51
-
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen166
@@ -196,64 +205,75 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count280
+\float@exts=\toks26
+\float@box=\box55
+\@float@everytoks=\toks27
+\@floatcapt=\box56
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box57
 ) (./informe.aux)
 \openout1 = `informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 -- Lines per column: 56 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
+\scratchcounter=\count282
 \scratchdimen=\dimen175
-\scratchbox=\box56
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count284
+\scratchbox=\box58
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count285
 \MPscratchDim=\dimen176
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 21.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
+2.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 5203) in paragraph at lines 27--29
-[]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---Clustering, PCA, K-Means, E-commerce,
+Underfull \hbox (badness 5203) in paragraph at lines 28--30
+[]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---Clustering, PCA, K-Means, E-comm
+erce,
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 38--39
+Underfull \hbox (badness 7221) in paragraph at lines 39--40
 []\OT1/ptm/m/n/10 No se en-con-traron val-ores fal-tantes. Las vari-ables
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 38--39
-\OT1/pcr/m/n/10 BounceRates \OT1/ptm/m/n/10 y \OT1/pcr/m/n/10 SpecialDay\OT1/ptm/m/n/10 ) y \OT1/pcr/m/n/10 StandardScaler
+Underfull \hbox (badness 1460) in paragraph at lines 39--40
+\OT1/pcr/m/n/10 BounceRates \OT1/ptm/m/n/10 y \OT1/pcr/m/n/10 SpecialDay\OT1/pt
+m/m/n/10 ) y \OT1/pcr/m/n/10 StandardScaler
  []
 
 <images/varianza_acumulada.png, id=1, 854.9541pt x 349.7868pt>
@@ -271,30 +291,42 @@ File: images/silueta.png Graphic file (type png)
 <use images/silueta.png>
 Package pdftex.def Info: images/silueta.png  used on input line 64.
 (pdftex.def)             Requested size: 247.6778pt x 142.44292pt.
-<images/k_means.png, id=5, 948.1824pt x 920.7198pt>
-File: images/k_means.png Graphic file (type png)
-<use images/k_means.png>
-Package pdftex.def Info: images/k_means.png  used on input line 76.
-(pdftex.def)             Requested size: 247.6778pt x 240.50542pt.
-<images/dbscan.png, id=6, 951.0732pt x 920.7198pt>
-File: images/dbscan.png Graphic file (type png)
-<use images/dbscan.png>
-Package pdftex.def Info: images/dbscan.png  used on input line 83.
-(pdftex.def)             Requested size: 247.6778pt x 239.77487pt.
-<images/jerarquico.png, id=7, 948.1824pt x 920.7198pt>
-File: images/jerarquico.png Graphic file (type png)
-<use images/jerarquico.png>
-Package pdftex.def Info: images/jerarquico.png  used on input line 90.
-(pdftex.def)             Requested size: 247.6778pt x 240.50542pt.
-<images/gmm.png, id=8, 948.1824pt x 920.7198pt>
-File: images/gmm.png Graphic file (type png)
-<use images/gmm.png>
-Package pdftex.def Info: images/gmm.png  used on input line 97.
-(pdftex.def)             Requested size: 247.6778pt x 240.50542pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/base/8r.enc}
 
 
  <./images/varianza_acumulada.png> <./images/elbow.png>]
+<images/k_means.png, id=18, 948.1824pt x 920.7198pt>
+File: images/k_means.png Graphic file (type png)
+<use images/k_means.png>
+Package pdftex.def Info: images/k_means.png  used on input line 77.
+(pdftex.def)             Requested size: 247.6778pt x 240.50542pt.
+<images/dbscan.png, id=19, 951.0732pt x 920.7198pt>
+File: images/dbscan.png Graphic file (type png)
+<use images/dbscan.png>
+Package pdftex.def Info: images/dbscan.png  used on input line 84.
+(pdftex.def)             Requested size: 247.6778pt x 239.77487pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<images/jerarquico.png, id=20, 948.1824pt x 920.7198pt>
+File: images/jerarquico.png Graphic file (type png)
+<use images/jerarquico.png>
+Package pdftex.def Info: images/jerarquico.png  used on input line 91.
+(pdftex.def)             Requested size: 247.6778pt x 240.50542pt.
+<images/gmm.png, id=21, 948.1824pt x 920.7198pt>
+File: images/gmm.png Graphic file (type png)
+<use images/gmm.png>
+Package pdftex.def Info: images/gmm.png  used on input line 98.
+(pdftex.def)             Requested size: 247.6778pt x 240.50542pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[2 <./images/silueta.png> <./images/k_means.png> <./images/dbscan.png> <./image
+s/jerarquico.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -306,7 +338,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2 <./images/silueta.png> <./images/k_means.png> <./images/dbscan.png> <./images/jerarquico.png>] [3
+[3
 
  <./images/gmm.png>] (./informe.aux)
  ***********
@@ -315,15 +347,21 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3130 strings out of 476182
- 52337 string characters out of 5795596
- 1938975 words of memory out of 5000000
- 25132 multiletter control sequences out of 15000+600000
+ 3201 strings out of 476182
+ 53348 string characters out of 5795596
+ 1934975 words of memory out of 5000000
+ 25200 multiletter control sequences out of 15000+600000
  588376 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,8n,65p,612b,359s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on informe.pdf (3 pages, 1836382 bytes).
+ 57i,8n,65p,523b,359s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb>
+Output written on informe.pdf (3 pages, 1836145 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
