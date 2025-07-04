@@ -37,67 +37,29 @@ El dataset fue obtenido del UCI Machine Learning Repository. Contiene 12.330 ins
 \section{Preprocesamiento de Datos}
 No se encontraron valores faltantes. Las variables categóricas fueron convertidas a tipo \texttt{category} y procesadas con one-hot encoding. Las numéricas fueron escaladas. Se utilizó \texttt{RobustScaler} para atributos con alta influencia (como \texttt{BounceRates} y \texttt{SpecialDay}) y \texttt{StandardScaler} para el resto.
 
-
 \section{Tendencia a Agrupamiento}
 Se aplicó el estadístico de Hopkins, obteniéndose un valor de $0.9785$, lo que indica una fuerte tendencia a formar clusters.
 \section{Reducción de Dimensionalidad}
 Se utilizó Análisis de Componentes Principales (PCA), conservando que los primeros 5 componentes explican el más del 85\% de la varianza acumulada. Estas fueron usadas para visualizar los resultados de clustering.
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.48\textwidth]{images/varianza_acumulada.png}
-    \caption{Gráfico de varianza acumulada y explicada por componente.}
-    \label{fig:pca}
+    \includegraphics[width=0.48\textwidth]{..\images\elbow.png}
+    \caption{Elbow method showing optimal number of clusters (k=2).}
+    \label{fig:elbow}
 \end{figure}
 
 \section{Determinación del Número Óptimo de Clusters}
 El método del codo y el coeficiente de silueta indicaron que $k=2$ es una opción adecuada para separar los datos en grupos distintos.
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.48\textwidth]{images/elbow.png}
-    \caption{Método del codo para determinar el número de clusters (k=2).}
-    \label{fig:elbow}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.48\textwidth]{images/silueta.png}
-    \caption{Método de la silueta para determinar el número óptimo de clusters (k=2).}
-    \label{fig:silueta}
-\end{figure}
 
 \section{Métodos de Clustering Aplicados}
 Se aplicaron los siguientes algoritmos:
 
 \begin{itemize}
     \item \textbf{K-Means:} produjo dos clusters bien separados pero muy polarizados.
-        \begin{figure}[htbp]
-            \centering
-            \includegraphics[width=0.48\textwidth]{images/k_means.png}
-            \caption{Resultados de K-Means con k=2.}
-            \label{fig:kmeans}
-        \end{figure}
     \item \textbf{DBSCAN:} detectó ruido y grupos densos.
-        \begin{figure}[htbp]
-            \centering
-            \includegraphics[width=0.48\textwidth]{images/dbscan.png}
-            \caption{Resultados de DBSCAN.}
-            \label{fig:dbscan}
-        \end{figure}
     \item \textbf{Agglomerative Clustering:} identificó dos grupos similares a K-Means.
-        \begin{figure}[htbp]
-            \centering
-            \includegraphics[width=0.48\textwidth]{images/jerarquico.png}
-            \caption{Resultados de Agglomerative Clustering.}
-            \label{fig:agglomerative}
-        \end{figure}
     \item \textbf{Gaussian Mixture Models (GMM):} generó una segmentación probabilística, identificando también patrones en forma de núcleo y siendo mucho más flexible.
-        \begin{figure}[htbp]
-            \centering
-            \includegraphics[width=0.48\textwidth]{images/gmm.png}
-            \caption{Resultados de GMM.}
-            \label{fig:gmm}
-        \end{figure}
 \end{itemize}
 
 \section{Análisis de Resultados}
