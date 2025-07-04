@@ -1,0 +1,77 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{cite}
+
+\title{Título del Trabajo en Español o Inglés}
+
+\author{
+    \IEEEauthorblockN{Nombre Apellido}
+    \IEEEauthorblockA{
+        Universidad de Talca\\
+        Facultad de Ingeniería\\
+        Email: nombre@utalca.cl}
+    \and
+    \IEEEauthorblockN{Nombre Apellido}
+    \IEEEauthorblockA{
+        Universidad de Talca\\
+        Facultad de Ingeniería\\
+        Email: nombre2@utalca.cl}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Resumen del trabajo en unas 6 a 8 líneas. Debe indicar el objetivo principal, metodología utilizada y resultados clave del análisis exploratorio de datos aplicado a clustering.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Clustering, Análisis Exploratorio de Datos, Reducción de Dimensionalidad, Modelos No Supervisados.
+\end{IEEEkeywords}
+
+\section{Introducción}
+Describe brevemente el contexto del problema, la importancia del análisis exploratorio de datos y la motivación para aplicar clustering.
+
+\section{Metodología}
+Explica los pasos del proyecto:
+\begin{itemize}
+    \item Descripción del conjunto de datos
+    \item Preprocesamiento (datos faltantes, atípicos)
+    \item Análisis de tendencia a formar clusters (Hopkins)
+    \item Determinación del número óptimo de clusters (métodos: Silhouette, etc.)
+    \item Reducción de dimensionalidad (PCA)
+    \item Aplicación de algoritmos de clustering (K-Means, DBSCAN, SOM, etc.)
+\end{itemize}
+
+\section{Resultados}
+Presenta los resultados obtenidos:
+\begin{itemize}
+    \item Gráficos de componentes principales
+    \item Asignación de clusters
+    \item Análisis descriptivo por grupo
+\end{itemize}
+
+\section{Discusión}
+Reflexiona sobre:
+\begin{itemize}
+    \item Diferencias entre grupos encontrados
+    \item Utilidad para la toma de decisiones
+    \item Limitaciones del análisis
+\end{itemize}
+
+\section{Conclusiones}
+Resume las principales conclusiones del trabajo, cómo puede aplicarse en la práctica y posibles mejoras futuras.
+
+\section*{Agradecimientos}
+(opcional)
+
+\begin{thebibliography}{99}
+\bibitem{ref1} R. L. Nolan, “Managing the Computer Resource: A Stage Hypothesis,” Communications of the ACM, vol. 16, no. 7, pp. 399–405, 1973.
+\bibitem{ref2} Nombre del autor, “Título del artículo/libro,” Nombre de la revista/libro, año.
+\end{thebibliography}
+
+\end{document}
