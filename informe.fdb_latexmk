@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1751663482.37337 "/workspaces/InformeAED3/informe.tex" "informe.pdf" "informe" 1751663483.64232 0
+["pdflatex"] 1751663697.65009 "/workspaces/InformeAED3/informe.tex" "informe.pdf" "informe" 1751663698.94059 0
   "/etc/texmf/web2c/texmf.cnf" 1751655656.45802 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -51,7 +51,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1751655672.12402 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1751655685 6800790 0fc7c06ae9af28fcfb283f1910fd944a ""
-  "/workspaces/InformeAED3/informe.tex" 1751663480.35725 5616 aa86d9cf2391d3b662d929467a723240 ""
+  "/workspaces/InformeAED3/informe.tex" 1751663696.88025 5681 c5504c69278f06b9456aa61f411cae18 ""
   "images/dbscan.png" 1751661869.27726 387584 05938405d475eee004e213817f78057a ""
   "images/elbow.png" 1751661870.25226 33376 ea1f1277c114abd79acb9b0d5fbdd3bd ""
   "images/gmm.png" 1751661871.51626 485351 49e7eecebc5998530c034c8514b5366d ""
@@ -59,8 +59,8 @@
   "images/k_means.png" 1751661873.97226 483956 86e350d3dbbb6128b3f5c49c75214303 ""
   "images/silueta.png" 1751661874.97026 27778 3ec94ade8ddc640c0e4b3b291f5dfed3 ""
   "images/varianza_acumulada.png" 1751661875.99526 38218 5aedf5deffdb83b5a1adca731d43196c ""
-  "informe.aux" 1751663483.60325 2459 7289a7896c9acfdd7a20dc6800e8f8f3 "pdflatex"
-  "informe.tex" 1751663480.35725 5616 aa86d9cf2391d3b662d929467a723240 ""
+  "informe.aux" 1751663698.90025 2459 7289a7896c9acfdd7a20dc6800e8f8f3 "pdflatex"
+  "informe.tex" 1751663696.88025 5681 c5504c69278f06b9456aa61f411cae18 ""
   (generated)
   "informe.aux"
   "informe.log"
